@@ -777,6 +777,12 @@ ul.list-link {
         flex-direction: column;
         align-items: flex-start;
     }
+    .category {
+       display: initial;
+    }
+    .strategy-box {
+        width: 100%;
+    }
 }
 
 
