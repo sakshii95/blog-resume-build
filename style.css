@@ -6,6 +6,7 @@
     margin: auto;
     max-width: 1500px;
     background-color: #f1f0f0;
+    overflow: hidden;
 }
 
 .nav {
@@ -755,25 +756,12 @@ ul.list-link {
     input {
         margin-left: 0px;
     }
-    
-
-
-
-
-
-
-
-   
-    nav {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background-color: #333;
+    .navbar-btn {
         width: 100%;
-        text-align: center;
-        z-index: 1;
+    }
+
+    .nav {
+        display: initial;
     }
 
     nav a {
