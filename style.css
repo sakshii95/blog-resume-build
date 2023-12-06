@@ -783,6 +783,17 @@ ul.list-link {
     .strategy-box {
         width: 100%;
     }
+    .resume-guide img {
+        margin-top: 10px;
+    }
+    .list-crafting-text h2 {
+        width: 100%;
+        
+    }
+    .list-crafting-text h3 {
+        width: 100%;
+        
+    }
 }
 
 
