@@ -57,11 +57,11 @@ ul.list1 a {
     margin-left: 34px;
 
 }
-input[type="text"] {
+/* input[type="text"] {
     margin-left: 28px;
     padding: 6px;
     font-size: 16px;
-}
+} */
 ul.about-link-icon {
     margin-top: 30px;
 }
@@ -292,6 +292,46 @@ ul.list1 {
 .resume-build-re h1 {
     font-weight: 600;
     font-size: 29px;
+}
+input#email {
+    width: 30%;
+    padding: 8px;
+    border: 2px solid #d5d1d1;
+}
+textarea#comment{
+    width: 30%;
+    padding: 8px;
+    border: 2px solid #d5d1d1;
+}
+input.text-placeholder {
+    padding: 6px;
+    margin-left: 35px;
+}
+
+button {
+    border-radius: 4px;
+    padding: 6px 18px;
+    color: white;
+    border: none;
+    background-color: #040432;
+}
+input#name {
+    width: 30%;
+    padding: 8px;
+    border: 2px solid #d5d1d1;
+}
+
+.form-comment h3 {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 34px;
+}
+.form-comment h2 {
+    font-weight: 600;
+}
+label {
+    font-size: 17px;
+    margin-top: 5px;
 }
 
 @media (max-width:600px){
